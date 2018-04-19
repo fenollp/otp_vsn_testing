@@ -2,10 +2,9 @@
  [{description, "Test app for https://github.com/fenollp/otp_vsn"},
   {vsn, "0.1.0"},
   {registered, []},
-  {applications,
-   [kernel,
-    stdlib
-   ]},
+  {applications, [kernel
+                 ,stdlib
+                 ]},
   {env,[]},
   {modules, []},
 
