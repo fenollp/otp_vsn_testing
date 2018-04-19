@@ -1,4 +1,4 @@
-{application, test_otp_vsn,
+{application, otp_vsn_testing,
  [{description, "Test app for https://github.com/fenollp/otp_vsn"},
   {vsn, "0.1.0"},
   {registered, []},
