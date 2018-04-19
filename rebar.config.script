@@ -1,0 +1,10 @@
+[{deps, [{otp_vsn,
+          {git, "https://github.com/fenollp/otp_vsn.git",
+           case os:getenv("CIRCLE_SHA1") of
+               false -> {branch, "master"};
+               Hash -> {ref, Hash}
+           end
+          }}
+        ]}
+ | CONFIG
+].

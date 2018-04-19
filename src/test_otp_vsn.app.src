@@ -1,5 +1,5 @@
-{application, test_otp_vsn.git,
- [{description, "An OTP library"},
+{application, test_otp_vsn,
+ [{description, "Test app for https://github.com/fenollp/otp_vsn"},
   {vsn, "0.1.0"},
   {registered, []},
   {applications,
